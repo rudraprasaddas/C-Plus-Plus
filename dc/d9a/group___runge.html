@@ -264,7 +264,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">      * n calucates the number of iterations</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">      * k1,k2,k3,k4 are the Runge Kutta variables </span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">      * used for calculation of y at each iteration</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">      * **/</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">      */</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;     <span class="keywordtype">int</span> n = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>((x - init_x) / <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">double</span> k1=0.0;</div>
@@ -275,7 +275,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">    /**</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">     * Iterate for number of iterations </span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">     * **/</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">     */</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">double</span> y = init_y; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; i++) </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    { <span class="comment"></span></div>
@@ -283,7 +283,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">         *      </span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">         *  Apply Runge Kutta Formulas </span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">         * to find next value of y </span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">         * **/</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">         */</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        k1 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a>(init_x, y); </div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        k2 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k1); </div>
@@ -292,13 +292,13 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">        /**</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">         * Update next value of y </span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">         * **/</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">        */</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        y = y + (1.0/6.0)*(k1 + 2*k2 + 2*k3 + k4);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">        /**</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">         *  Update next value of x </span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">         * **/</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">         */</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        init_x = init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>; </div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    } </div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
