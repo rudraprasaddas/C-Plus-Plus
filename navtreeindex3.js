@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d7/d83/trie__tree_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,2,13,1],
 "d7/d89/double__factorial_8cpp.html":[8,0,10,6],
 "d7/d89/double__factorial_8cpp.html#a0a3c417360400093891a9ccddaa4be26":[8,0,10,6,0],
 "d7/d89/double__factorial_8cpp.html#a68ba20fed2ce427f6469c7689437829d":[8,0,10,6,1],
@@ -41,8 +42,8 @@ var NAVTREEINDEX3 =
 "d8/d6c/line__segment__intersection_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,4,1,2],
 "d8/d77/namespacemachine__learning.html":[6,0,18],
 "d8/d77/namespacemachine__learning.html":[7,0,6],
-"d8/d89/namespacelinear__probing.html":[6,0,16],
 "d8/d89/namespacelinear__probing.html":[7,0,5],
+"d8/d89/namespacelinear__probing.html":[6,0,16],
 "d8/d8a/exponential__search_8cpp.html":[8,0,15,1],
 "d8/d8a/exponential__search_8cpp.html#a0f697e2a3b5193324ab84bd4045088f7":[8,0,15,1,0],
 "d8/d8a/exponential__search_8cpp.html#a67e9c84b4e2eb30e3c5170eabfbb363d":[8,0,15,1,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "da/d8d/depth__first__search_8cpp.html#a48acac475cb48614279e7ea784c32fc3":[8,0,5,2,2],
 "da/d8d/depth__first__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,5,2,3],
 "da/d9a/class_graph.html":[7,0,19],
-"da/d9a/class_graph.html#a04365fc6f13bf330e38dbc1424134827":[7,0,19,6],
-"da/d9a/class_graph.html#a10ff9c6c323cf435f18e424dbb62235e":[7,0,19,27]
+"da/d9a/class_graph.html#a04365fc6f13bf330e38dbc1424134827":[7,0,19,6]
 };

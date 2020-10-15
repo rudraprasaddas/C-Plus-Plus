@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d5/da1/structnode.html":[7,0,28],
 "d5/da1/structnode.html#a063635bc4e984d971d1efeb4230b0515":[7,0,28,5],
 "d5/da1/structnode.html#a0d4a5d1d3d77036ea6640f34b17b6554":[7,0,28,4],
 "d5/da1/structnode.html#a0ff89d3a408eee8a4ce6a69bfe0ddecf":[7,0,28,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d7/d7c/classstatistics_1_1stats__computer1.html#af57e942d49f4fd70f059f224b4ac07e1":[7,0,10,0,2],
 "d7/d7f/section.html":[3],
 "d7/d83/trie__tree_8cpp.html":[8,0,2,13],
-"d7/d83/trie__tree_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[8,0,2,13,2],
-"d7/d83/trie__tree_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,2,13,1]
+"d7/d83/trie__tree_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[8,0,2,13,2]
 };
