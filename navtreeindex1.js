@@ -1,9 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"d3/d06/ode__semi__implicit__euler_8cpp.html#abaeae8f62a018d197f0187a1c80a90fe":[8,0,11,11,2],
-"d3/d06/ode__semi__implicit__euler_8cpp.html#af3adf7b092a87868917ee5fb4255192b":[8,0,11,11,0],
-"d3/d17/namespaceutil__functions.html":[6,0,40],
-"d3/d19/sparse__matrix_8cpp.html":[8,0,12,13],
 "d3/d19/sparse__matrix_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,12,13,0],
 "d3/d24/qr__decomposition_8cpp.html":[8,0,11,13],
 "d3/d24/qr__decomposition_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe":[8,0,11,13,0],
@@ -218,8 +214,8 @@ var NAVTREEINDEX1 =
 "d5/d4c/group__sorting.html#gabd9a93f241c5c86f2ec0abf8b66b4145":[8,0,16,4,0],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[5,4,2],
 "d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,16,7,0],
-"d5/d5f/namespacegeometry.html":[6,0,8],
 "d5/d5f/namespacegeometry.html":[7,0,3],
+"d5/d5f/namespacegeometry.html":[6,0,8],
 "d5/d67/bayes__theorem_8cpp.html":[8,0,13,1],
 "d5/d67/bayes__theorem_8cpp.html#a655bfe51252468d232dc639a340656ba":[8,0,13,1,0],
 "d5/d67/bayes__theorem_8cpp.html#abb4f22dc05887c2259fdfc55c687598f":[8,0,13,1,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX1 =
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md37":[2,15],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md38":[2,16],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md39":[2,17],
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40":[2,18]
+"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40":[2,18],
+"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html":[7,0,7,0,0],
+"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html#a6ae98710503b894b843d01cb69d5490c":[7,0,7,0,0,1],
+"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html#af06360122e20ce2ba32c574a27a20ba1":[7,0,7,0,0,0],
+"d5/d91/namespacesorting.html":[6,0,33]
 };
