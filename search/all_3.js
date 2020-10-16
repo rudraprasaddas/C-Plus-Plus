@@ -24,7 +24,7 @@ var searchData=
   ['cerr_220',['cerr',['http://en.cppreference.com/w/cpp/io/basic_ostream.html',0,'std']]],
   ['chain_5fquery_221',['chain_query',['../d2/d8a/classrange__queries_1_1heavy__light__decomposition_1_1_h_l_d.html#a7d5b40c076347a6aabfb37a0590f2f24',1,'range_queries::heavy_light_decomposition::HLD']]],
   ['chaining_2ecpp_222',['chaining.cpp',['../d9/d92/chaining_8cpp.html',1,'']]],
-  ['change_223',['change',['../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c',1,'numerical_methods::runge_kutta']]],
+  ['change_223',['change',['../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418',1,'rungekutta.cpp']]],
   ['change_5froot_224',['change_root',['../d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#ab916d554afa8ca5230b4310c2c69fae0',1,'range_queries::heavy_light_decomposition::Tree']]],
   ['char_5fto_5fint_225',['char_to_int',['../d0/d3e/classdata__structures_1_1trie.html#aab373beb3f618b90922528c68797d988',1,'data_structures::trie']]],
   ['char_5ftraits_226',['char_traits',['http://en.cppreference.com/w/cpp/string/char_traits.html',0,'std']]],

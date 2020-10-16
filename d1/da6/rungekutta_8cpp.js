@@ -1,6 +1,6 @@
 var rungekutta_8cpp =
 [
-    [ "change", "d1/da6/rungekutta_8cpp.html#ga25508693d14e74395bcd94af190e062c", null ],
+    [ "change", "dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418", null ],
     [ "main", "dc/d9a/group___runge.html#gae66f6b31b5ad750f1fe042a706a4e3d4", null ],
-    [ "rungeKutta", "d1/da6/rungekutta_8cpp.html#ga8b238477b5fef12cb566e311946d63e6", null ]
+    [ "rungeKutta", "dc/d9a/group___runge.html#gab997d56fac2ed0fbd6bd2aa456c8b8f9", null ]
 ];

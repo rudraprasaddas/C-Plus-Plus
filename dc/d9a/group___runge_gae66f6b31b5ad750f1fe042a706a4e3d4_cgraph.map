@@ -1,6 +1,6 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title="Main function." alt="" coords="5,35,56,61"/>
-<area shape="rect" id="node2" href="$d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001" title=" " alt="" coords="365,5,404,32"/>
-<area shape="rect" id="node3" href="$dc/d9a/group___runge.html#ga8b238477b5fef12cb566e311946d63e6" title="The rungeKutta finds value of y for a given x using step size h and initial value initial x at initia..." alt="" coords="104,57,265,98"/>
-<area shape="rect" id="node4" href="$dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c" title="The change() function is used to return the updated iterative value corresponding to the given functi..." alt="" coords="313,57,456,98"/>
+<area shape="rect" id="node1" title="Main function." alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node2" href="$d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001" title=" " alt="" coords="250,5,289,32"/>
+<area shape="rect" id="node3" href="$dc/d9a/group___runge.html#gab997d56fac2ed0fbd6bd2aa456c8b8f9" title="The rungeKutta finds value of y for a given x using step size h and initial value initial x at initia..." alt="" coords="104,56,189,83"/>
+<area shape="rect" id="node4" href="$dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418" title="The change() function is used to return the updated iterative value corresponding to the given functi..." alt="" coords="237,56,301,83"/>
 </map>
