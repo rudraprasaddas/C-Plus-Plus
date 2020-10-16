@@ -68,6 +68,7 @@ var searchData=
   ['number_5fof_5fpositive_5fdivisors_2ecpp_1202',['number_of_positive_divisors.cpp',['../d0/da2/number__of__positive__divisors_8cpp.html',1,'']]],
   ['number_5fof_5fvertices_1203',['number_of_vertices',['../dc/d61/classgraph_1_1_graph.html#ae2f6992450faa2c3da93edea0818869a',1,'graph::Graph']]],
   ['numeric_5flimits_1204',['numeric_limits',['http://en.cppreference.com/w/cpp/types/numeric_limits.html',0,'std']]],
-  ['numpunct_1205',['numpunct',['http://en.cppreference.com/w/cpp/locale/numpunct.html',0,'std::numpunct'],['http://en.cppreference.com/w/cpp/locale/numpunct/numpunct.html',0,'std::numpunct::numpunct()']]],
-  ['numpunct_5fbyname_1206',['numpunct_byname',['http://en.cppreference.com/w/cpp/locale/numpunct_byname.html',0,'std::numpunct_byname'],['http://en.cppreference.com/w/cpp/locale/numpunct_byname.html',0,'std::numpunct_byname::numpunct_byname()']]]
+  ['numerical_5fmethods_1205',['numerical_methods',['../d1/de0/namespacenumerical__methods.html',1,'']]],
+  ['numpunct_1206',['numpunct',['http://en.cppreference.com/w/cpp/locale/numpunct.html',0,'std::numpunct'],['http://en.cppreference.com/w/cpp/locale/numpunct/numpunct.html',0,'std::numpunct::numpunct()']]],
+  ['numpunct_5fbyname_1207',['numpunct_byname',['http://en.cppreference.com/w/cpp/locale/numpunct_byname.html',0,'std::numpunct_byname'],['http://en.cppreference.com/w/cpp/locale/numpunct_byname.html',0,'std::numpunct_byname::numpunct_byname()']]]
 ];
