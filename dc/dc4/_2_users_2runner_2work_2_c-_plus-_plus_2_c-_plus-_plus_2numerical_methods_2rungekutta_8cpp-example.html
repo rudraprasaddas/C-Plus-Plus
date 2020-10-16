@@ -168,30 +168,24 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">    <span class="keywordtype">double</span> k3=0.0;</div>
 <div class="line">    <span class="keywordtype">double</span> k4=0.0;</div>
 <div class="line">    <span class="keywordtype">double</span> k5=0.0; </div>
-<div class="line"> </div>
 <div class="line">    </div>
 <div class="line">     <span class="comment">// Iterate for number of iterations </span></div>
 <div class="line">     </div>
 <div class="line">    <span class="keywordtype">double</span> y = init_y; </div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; i++) </div>
 <div class="line">    { </div>
-<div class="line">        </div>
-<div class="line">                </div>
+<div class="line">                        </div>
 <div class="line">         <span class="comment">// Apply Runge Kutta Formulas </span></div>
-<div class="line">         <span class="comment">// to find next value of y </span></div>
+<div class="line">    ru   <span class="comment">// to find next value of y </span></div>
 <div class="line">        </div>
-<div class="line"> </div>
 <div class="line">        k1 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x, y); </div>
 <div class="line">        k2 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k1); </div>
 <div class="line">        k3 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k2); </div>
 <div class="line">        k4 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + k3); </div>
-<div class="line"> </div>
 <div class="line">        </div>
 <div class="line">        <span class="comment">// Update next value of y </span></div>
 <div class="line">        </div>
-<div class="line"> </div>
 <div class="line">        y = y + (1.0/6.0)*(k1 + 2*k2 + 2*k3 + k4);</div>
-<div class="line"> </div>
 <div class="line">        </div>
 <div class="line">        <span class="comment">// Update next value of x </span></div>
 <div class="line">        </div>
@@ -215,7 +209,7 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">    <span class="keywordtype">double</span> <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a> = 0.2; </div>
 <div class="line">    <a name="_a4"></a><a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;The value of y at x is :&quot;</span>&lt;&lt; <a class="code" href="../../dc/d9a/group___runge.html#ga8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a>(x0, y, x, <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
 <div class="line">    <span class="keywordflow">return</span> 0; </div>
-<div class="line">}</div>
+<div class="line">} </div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespacenumerical__methods_html"><div class="ttname"><a href="../../d1/de0/namespacenumerical__methods.html">numerical_methods</a></div><div class="ttdoc">Numerical Methods.</div></div>
