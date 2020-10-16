@@ -1,5 +1,9 @@
 var NAVTREEINDEX1 =
 {
+"d3/d06/ode__semi__implicit__euler_8cpp.html#abaeae8f62a018d197f0187a1c80a90fe":[8,0,11,11,2],
+"d3/d06/ode__semi__implicit__euler_8cpp.html#af3adf7b092a87868917ee5fb4255192b":[8,0,11,11,0],
+"d3/d17/namespaceutil__functions.html":[6,0,40],
+"d3/d19/sparse__matrix_8cpp.html":[8,0,12,13],
 "d3/d19/sparse__matrix_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,12,13,0],
 "d3/d24/qr__decomposition_8cpp.html":[8,0,11,13],
 "d3/d24/qr__decomposition_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe":[8,0,11,13,0],
@@ -58,7 +62,7 @@ var NAVTREEINDEX1 =
 "d3/dce/linkedlist__implentation__usingarray_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,2,6,7],
 "d3/dce/linkedlist__implentation__usingarray_8cpp.html#aed19b403f559fc5d5a4bce724f9e263c":[8,0,2,6,9],
 "d3/dce/linkedlist__implentation__usingarray_8cpp.html#afcb07da7984e20b3207934696791f5df":[8,0,2,6,5],
-"d3/deb/namespaceshortest__common__supersequence.html":[6,0,30],
+"d3/deb/namespaceshortest__common__supersequence.html":[6,0,32],
 "d3/dfe/horspool_8cpp.html":[8,0,17,1],
 "d3/dfe/horspool_8cpp.html#a9884bca75ce39c116697ea2574adb37d":[8,0,17,1,1],
 "d3/dfe/horspool_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[8,0,17,1,3],
@@ -137,14 +141,14 @@ var NAVTREEINDEX1 =
 "d4/db4/struct_segment_intersection.html#a3beb2ac1b35d67354f1dbaf9a971e655":[7,0,35,0],
 "d4/db4/struct_segment_intersection.html#aefd077282f45bd16799b53f8aa430ffd":[7,0,35,1],
 "d4/dd2/namespacequadratic__probing.html":[7,0,8],
-"d4/dd2/namespacequadratic__probing.html":[6,0,27],
+"d4/dd2/namespacequadratic__probing.html":[6,0,28],
 "d4/dde/classgeometry_1_1jarvis_1_1_convexhull.html":[7,0,3,0,0],
 "d4/dde/classgeometry_1_1jarvis_1_1_convexhull.html#a2272bb62c35af959953b0ea06b010036":[7,0,3,0,0,4],
 "d4/dde/classgeometry_1_1jarvis_1_1_convexhull.html#a54df5f9a8f37170bd97c91127664655c":[7,0,3,0,0,2],
 "d4/dde/classgeometry_1_1jarvis_1_1_convexhull.html#a8306e48040a8570e164c58d1c530f870":[7,0,3,0,0,0],
 "d4/dde/classgeometry_1_1jarvis_1_1_convexhull.html#a835cd4cdc5a644abb84535197d753b02":[7,0,3,0,0,3],
 "d4/dde/classgeometry_1_1jarvis_1_1_convexhull.html#a878952f2eb3d1fae79d58c994fc10ab1":[7,0,3,0,0,1],
-"d4/de6/namespacepostfix__expression.html":[6,0,25],
+"d4/de6/namespacepostfix__expression.html":[6,0,26],
 "d4/def/kohonen__som__topology_8cpp.html":[8,0,9,1],
 "d4/def/kohonen__som__topology_8cpp.html#a0283886819c7c140a023582b7269e2d0":[8,0,9,1,9],
 "d4/def/kohonen__som__topology_8cpp.html#a0e7435446ed7c763f7de79a468add2e0":[8,0,9,1,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md37":[2,15],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md38":[2,16],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md39":[2,17],
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40":[2,18],
-"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html":[7,0,7,0,0],
-"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html#a6ae98710503b894b843d01cb69d5490c":[7,0,7,0,0,1],
-"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html#af06360122e20ce2ba32c574a27a20ba1":[7,0,7,0,0,0],
-"d5/d91/namespacesorting.html":[6,0,31]
+"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40":[2,18]
 };

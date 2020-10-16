@@ -96,25 +96,35 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="contents">
 <p>it solves dy/dx=(x-y)/2 at a given x for given initial conditions There can be many such equations</p>
 <div class="fragment"><div class="line"><span class="comment">/**</span></div>
-<div class="line"><span class="comment"> *  \addtogroup Runge Kutta 4th Method for solving Differential equation</span></div>
-<div class="line"><span class="comment"> *  @{</span></div>
-<div class="line"><span class="comment"> *  \file</span></div>
-<div class="line"><span class="comment"> *  \brief Runge Kutta Method implementation</span></div>
+<div class="line"><span class="comment"> * \addtogroup Runge Kutta 4th Method for solving Differential equation</span></div>
+<div class="line"><span class="comment"> * @{</span></div>
+<div class="line"><span class="comment"> * \file</span></div>
+<div class="line"><span class="comment"> * \brief Runge Kutta Method implementation</span></div>
 <div class="line"><span class="comment"> *</span></div>
-<div class="line"><span class="comment"> *  \author [Rudra Prasad Das](http://github.com/rudra697)</span></div>
+<div class="line"><span class="comment"> * \author [Rudra Prasad Das](http://github.com/rudra697)</span></div>
 <div class="line"><span class="comment"> *</span></div>
-<div class="line"><span class="comment"> *  \details</span></div>
+<div class="line"><span class="comment"> * \details</span></div>
 <div class="line"><span class="comment"> * It solves the unknown value of y </span></div>
 <div class="line"><span class="comment"> * for a given value of x</span></div>
-<div class="line"><span class="comment"> * only first oreder differential equations</span></div>
-<div class="line"><span class="comment"> *can be solved</span></div>
-<div class="line"><span class="comment"> *  \example</span></div>
-<div class="line"><span class="comment"> *  it solves dy/dx=(x-y)/2 at a </span></div>
+<div class="line"><span class="comment"> * only first order differential equations</span></div>
+<div class="line"><span class="comment"> * can be solved</span></div>
+<div class="line"><span class="comment"> * \example</span></div>
+<div class="line"><span class="comment"> * it solves dy/dx=(x-y)/2 at a </span></div>
 <div class="line"><span class="comment"> * given x for given initial </span></div>
 <div class="line"><span class="comment"> * conditions</span></div>
 <div class="line"><span class="comment"> * There can be many such equations </span></div>
-<div class="line"><span class="comment"> * **/</span></div>
+<div class="line"><span class="comment"> */</span></div>
 <div class="line"><span class="preprocessor">#include&lt;iostream&gt;</span> <span class="comment"></span></div>
+<div class="line"><span class="comment">/**</span></div>
+<div class="line"><span class="comment"> * @namespace numerical_methods</span></div>
+<div class="line"><span class="comment"> * @brief Numerical Methods</span></div>
+<div class="line"><span class="comment"> */</span></div>
+<div class="line"><span class="keyword">namespace </span><a class="code" href="../../d1/de0/namespacenumerical__methods.html">numerical_methods</a> {<span class="comment"></span></div>
+<div class="line"><span class="comment">/**</span></div>
+<div class="line"><span class="comment"> * @namespace runge_kutta</span></div>
+<div class="line"><span class="comment"> * @brief Functions for [Runge Kutta](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods) method</span></div>
+<div class="line"><span class="comment"> */</span></div>
+<div class="line"><span class="keyword">namespace </span><a class="code" href="../../d2/de7/namespacerunge__kutta.html">runge_kutta</a> {<span class="comment"></span></div>
 <div class="line"><span class="comment">/**</span></div>
 <div class="line"><span class="comment"> * @brief The change() function is used </span></div>
 <div class="line"><span class="comment"> * to return the updated iterative value corresponding </span></div>
@@ -122,14 +132,14 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"><span class="comment"> * @param x is the value corresponding to the x coordinate</span></div>
 <div class="line"><span class="comment"> * @param y is the value corresponding to the y coordinate </span></div>
 <div class="line"><span class="comment"> * @returns the computed function value at that call</span></div>
-<div class="line"><span class="comment"> * **/</span></div>
-<div class="line"><span class="keywordtype">double</span> <a name="a0"></a><a class="code" href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a>(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y) </div>
+<div class="line"><span class="comment"> */</span></div>
+<div class="line"><span class="keywordtype">double</span> <a name="a0"></a><a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y) </div>
 <div class="line">{ </div>
 <div class="line">    <span class="keywordtype">double</span> val=((x - y)/2.0); </div>
 <div class="line">    <span class="keywordflow">return</span> val;</div>
 <div class="line">} <span class="comment"></span></div>
 <div class="line"><span class="comment">/**</span></div>
-<div class="line"><span class="comment"> *  @brief The rungeKutta finds value of y for </span></div>
+<div class="line"><span class="comment"> * @brief The rungeKutta finds value of y for </span></div>
 <div class="line"><span class="comment"> * a given x using step size h </span></div>
 <div class="line"><span class="comment"> * and initial value initial x at initial y. </span></div>
 <div class="line"><span class="comment"> * @param init_x is the value of initial x and is updated after each call</span></div>
@@ -137,19 +147,19 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"><span class="comment"> * @param x is the given value of x</span></div>
 <div class="line"><span class="comment"> * @param h is the step value </span></div>
 <div class="line"><span class="comment"> * @returns the value of y at thr required value of x from the initial conditions</span></div>
-<div class="line"><span class="comment"> **/</span></div>
-<div class="line"><span class="keywordtype">double</span> <a name="a1"></a><a class="code" href="../../dc/d9a/group___runge.html#gab997d56fac2ed0fbd6bd2aa456c8b8f9">rungeKutta</a>(<span class="keywordtype">double</span> init_x, <span class="keywordtype">double</span> init_y, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> <a name="a2"></a><a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>) </div>
-<div class="line">{ <span class="comment"></span></div>
-<div class="line"><span class="comment">     /**</span></div>
-<div class="line"><span class="comment">      * Count number of iterations </span></div>
-<div class="line"><span class="comment">      * using step size or </span></div>
-<div class="line"><span class="comment">      *  step height h </span></div>
-<div class="line"><span class="comment">      * **/</span><span class="comment"></span></div>
-<div class="line"><span class="comment">     /**</span></div>
-<div class="line"><span class="comment">      * n calucates the number of iterations</span></div>
-<div class="line"><span class="comment">      * k1,k2,k3,k4 are the Runge Kutta variables </span></div>
-<div class="line"><span class="comment">      * used for calculation of y at each iteration</span></div>
-<div class="line"><span class="comment">      */</span></div>
+<div class="line"><span class="comment"> */</span></div>
+<div class="line"><span class="keywordtype">double</span> <a name="a1"></a><a class="code" href="../../dc/d9a/group___runge.html#ga8b238477b5fef12cb566e311946d63e6">rungeKutta</a>(<span class="keywordtype">double</span> init_x, <span class="keywordtype">double</span> init_y, <span class="keywordtype">double</span> x, <span class="keywordtype">double</span> <a name="a2"></a><a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>) </div>
+<div class="line">{ </div>
+<div class="line">     </div>
+<div class="line">      <span class="comment">// Count number of iterations </span></div>
+<div class="line">      <span class="comment">//using step size or </span></div>
+<div class="line">      <span class="comment">// step height h </span></div>
+<div class="line">      </div>
+<div class="line">     </div>
+<div class="line">      <span class="comment">// n calucates the number of iterations</span></div>
+<div class="line">      <span class="comment">// k1,k2,k3,k4 are the Runge Kutta variables </span></div>
+<div class="line">      <span class="comment">// used for calculation of y at each iteration</span></div>
+<div class="line">      </div>
 <div class="line">     <span class="keywordtype">int</span> n = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>((x - init_x) / <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
 <div class="line">    </div>
 <div class="line">    <span class="keywordtype">double</span> k1=0.0;</div>
@@ -157,38 +167,40 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">    <span class="keywordtype">double</span> k3=0.0;</div>
 <div class="line">    <span class="keywordtype">double</span> k4=0.0;</div>
 <div class="line">    <span class="keywordtype">double</span> k5=0.0; </div>
-<div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">    /**</span></div>
-<div class="line"><span class="comment">     * Iterate for number of iterations </span></div>
-<div class="line"><span class="comment">     */</span></div>
+<div class="line"> </div>
+<div class="line">    </div>
+<div class="line">     <span class="comment">// Iterate for number of iterations </span></div>
+<div class="line">     </div>
 <div class="line">    <span class="keywordtype">double</span> y = init_y; </div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; i++) </div>
-<div class="line">    { <span class="comment"></span></div>
-<div class="line"><span class="comment">        /**</span></div>
-<div class="line"><span class="comment">         *      </span></div>
-<div class="line"><span class="comment">         *  Apply Runge Kutta Formulas </span></div>
-<div class="line"><span class="comment">         * to find next value of y </span></div>
-<div class="line"><span class="comment">         */</span></div>
+<div class="line">    { </div>
+<div class="line">        </div>
+<div class="line">                </div>
+<div class="line">         <span class="comment">// Apply Runge Kutta Formulas </span></div>
+<div class="line">         <span class="comment">// to find next value of y </span></div>
+<div class="line">        </div>
 <div class="line"> </div>
-<div class="line">        k1 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a>(init_x, y); </div>
-<div class="line">        k2 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k1); </div>
-<div class="line">        k3 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k2); </div>
-<div class="line">        k4 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a>(init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + k3); </div>
-<div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">        /**</span></div>
-<div class="line"><span class="comment">         * Update next value of y </span></div>
-<div class="line"><span class="comment">        */</span></div>
+<div class="line">        k1 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x, y); </div>
+<div class="line">        k2 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k1); </div>
+<div class="line">        k3 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k2); </div>
+<div class="line">        k4 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + k3); </div>
+<div class="line"> </div>
+<div class="line">        </div>
+<div class="line">        <span class="comment">// Update next value of y </span></div>
+<div class="line">        </div>
 <div class="line"> </div>
 <div class="line">        y = y + (1.0/6.0)*(k1 + 2*k2 + 2*k3 + k4);</div>
-<div class="line"><span class="comment"></span> </div>
-<div class="line"><span class="comment">        /**</span></div>
-<div class="line"><span class="comment">         *  Update next value of x </span></div>
-<div class="line"><span class="comment">         */</span></div>
+<div class="line"> </div>
+<div class="line">        </div>
+<div class="line">        <span class="comment">// Update next value of x </span></div>
+<div class="line">        </div>
 <div class="line">        init_x = init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>; </div>
 <div class="line">    } </div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> y; </div>
 <div class="line">} </div>
+<div class="line">}  <span class="comment">// namespace runge_kutta</span></div>
+<div class="line">}  <span class="comment">// namespace numerical_methods</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">/**</span></div>
 <div class="line"><span class="comment"> * @brief Main function</span></div>
@@ -200,15 +212,17 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">    <span class="keywordtype">double</span> y = 1;</div>
 <div class="line">    <span class="keywordtype">double</span> x = 2;</div>
 <div class="line">    <span class="keywordtype">double</span> <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a> = 0.2; </div>
-<div class="line">    <a name="_a4"></a><a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a>&lt;&lt;<span class="stringliteral">&quot;The value of y at x is :&quot;</span>&lt;&lt;<a class="code" href="../../dc/d9a/group___runge.html#gab997d56fac2ed0fbd6bd2aa456c8b8f9">rungeKutta</a>(x0, y, x, <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
+<div class="line">    <a name="_a4"></a><a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The value of y at x is :&quot;</span>&lt;&lt; <a class="code" href="../../dc/d9a/group___runge.html#ga8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a>(x0, y, x, <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
 <div class="line">    <span class="keywordflow">return</span> 0; </div>
 <div class="line">} </div>
 </div><!-- fragment --> </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespacenumerical__methods_html"><div class="ttname"><a href="../../d1/de0/namespacenumerical__methods.html">numerical_methods</a></div><div class="ttdoc">Numerical Methods.</div></div>
+<div class="ttc" id="agroup___runge_html_ga8b238477b5fef12cb566e311946d63e6"><div class="ttname"><a href="../../dc/d9a/group___runge.html#ga8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a></div><div class="ttdeci">double rungeKutta(double init_x, double init_y, double x, double h)</div><div class="ttdoc">The rungeKutta finds value of y for a given x using step size h and initial value initial x at initia...</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:54</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="ahash__search_8cpp_html_a566eaf0ffafd50bc61e644561fd27001"><div class="ttname"><a href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a></div><div class="ttdeci">int h(int key)</div><div class="ttdef"><b>Definition:</b> hash_search.cpp:45</div></div>
-<div class="ttc" id="agroup___runge_html_gab997d56fac2ed0fbd6bd2aa456c8b8f9"><div class="ttname"><a href="../../dc/d9a/group___runge.html#gab997d56fac2ed0fbd6bd2aa456c8b8f9">rungeKutta</a></div><div class="ttdeci">double rungeKutta(double init_x, double init_y, double x, double h)</div><div class="ttdoc">The rungeKutta finds value of y for a given x using step size h and initial value initial x at initia...</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:44</div></div>
-<div class="ttc" id="agroup___runge_html_ga862b740d92a50a203ebabbe33a88a418"><div class="ttname"><a href="../../dc/d9a/group___runge.html#ga862b740d92a50a203ebabbe33a88a418">change</a></div><div class="ttdeci">double change(double x, double y)</div><div class="ttdoc">The change() function is used to return the updated iterative value corresponding to the given functi...</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:29</div></div>
+<div class="ttc" id="agroup___runge_html_ga25508693d14e74395bcd94af190e062c"><div class="ttname"><a href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">numerical_methods::runge_kutta::change</a></div><div class="ttdeci">double change(double x, double y)</div><div class="ttdoc">The change() function is used to return the updated iterative value corresponding to the given functi...</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:39</div></div>
+<div class="ttc" id="anamespacerunge__kutta_html"><div class="ttname"><a href="../../d2/de7/namespacerunge__kutta.html">runge_kutta</a></div><div class="ttdoc">Functions for Runge Kutta method.</div></div>
 <div class="ttc" id="agraph__coloring_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../d3/d40/graph__coloring_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> graph_coloring.cpp:96</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
