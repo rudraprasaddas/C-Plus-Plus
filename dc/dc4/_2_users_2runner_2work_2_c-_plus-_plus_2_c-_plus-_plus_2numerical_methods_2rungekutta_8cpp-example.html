@@ -153,9 +153,7 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">     </div>
 <div class="line">      <span class="comment">// Count number of iterations </span></div>
 <div class="line">      <span class="comment">//using step size or </span></div>
-<div class="line">      <span class="comment">// step height h </span></div>
-<div class="line">      </div>
-<div class="line">     </div>
+<div class="line">      <span class="comment">// step height h  </span></div>
 <div class="line">      <span class="comment">// n calucates the number of iterations</span></div>
 <div class="line">      <span class="comment">// k1,k2,k3,k4 are the Runge Kutta variables </span></div>
 <div class="line">      <span class="comment">// used for calculation of y at each iteration</span></div>
@@ -166,32 +164,26 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">    <span class="keywordtype">double</span> k2=0.0;</div>
 <div class="line">    <span class="keywordtype">double</span> k3=0.0;</div>
 <div class="line">    <span class="keywordtype">double</span> k4=0.0;</div>
-<div class="line">    <span class="keywordtype">double</span> k5=0.0; </div>
+<div class="line">    <span class="keywordtype">double</span> k5=0.0;  </div>
 <div class="line"> </div>
-<div class="line">    </div>
 <div class="line">     <span class="comment">// Iterate for number of iterations </span></div>
 <div class="line">     </div>
 <div class="line">    <span class="keywordtype">double</span> y = init_y; </div>
 <div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; i++) </div>
 <div class="line">    { </div>
-<div class="line">        </div>
-<div class="line">                </div>
+<div class="line">                        </div>
 <div class="line">         <span class="comment">// Apply Runge Kutta Formulas </span></div>
 <div class="line">         <span class="comment">// to find next value of y </span></div>
 <div class="line">        </div>
-<div class="line"> </div>
 <div class="line">        k1 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x, y); </div>
 <div class="line">        k2 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k1); </div>
 <div class="line">        k3 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k2); </div>
 <div class="line">        k4 = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c">change</a>(init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + k3); </div>
-<div class="line"> </div>
 <div class="line">        </div>
 <div class="line">        <span class="comment">// Update next value of y </span></div>
 <div class="line">        </div>
-<div class="line"> </div>
 <div class="line">        y = y + (1.0/6.0)*(k1 + 2*k2 + 2*k3 + k4);</div>
-<div class="line"> </div>
-<div class="line">        </div>
+<div class="line">    </div>
 <div class="line">        <span class="comment">// Update next value of x </span></div>
 <div class="line">        </div>
 <div class="line">        init_x = init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>; </div>
