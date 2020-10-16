@@ -1,5 +1,12 @@
 var NAVTREEINDEX2 =
 {
+"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html":[7,0,7,0,0],
+"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html#a6ae98710503b894b843d01cb69d5490c":[7,0,7,0,0,1],
+"d5/d8a/classothers_1_1postfix__expression_1_1_stack.html#af06360122e20ce2ba32c574a27a20ba1":[7,0,7,0,0,0],
+"d5/d91/namespacesorting.html":[6,0,33],
+"d5/da1/structnode.html":[7,0,28],
+"d5/da1/structnode.html#a063635bc4e984d971d1efeb4230b0515":[7,0,28,5],
+"d5/da1/structnode.html#a0d4a5d1d3d77036ea6640f34b17b6554":[7,0,28,4],
 "d5/da1/structnode.html#a0ff89d3a408eee8a4ce6a69bfe0ddecf":[7,0,28,10],
 "d5/da1/structnode.html#a135f25acadfbba644f848f1aa18d8350":[7,0,28,11],
 "d5/da1/structnode.html#a42309387b3fa0237ec200c025071ad37":[7,0,28,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX2 =
 "d7/d7c/classstatistics_1_1stats__computer1.html#a8ab2b14d5650b14e46b70b412573f60a":[7,0,10,0,6],
 "d7/d7c/classstatistics_1_1stats__computer1.html#aa13bf7c38de112f71921a5525d71a2f2":[7,0,10,0,1],
 "d7/d7c/classstatistics_1_1stats__computer1.html#ab2e69e75fe0da096bf61fa13420b43eb":[7,0,10,0,8],
-"d7/d7c/classstatistics_1_1stats__computer1.html#ab5b4bfecdf391cae7edb1fe98548b846":[7,0,10,0,4],
-"d7/d7c/classstatistics_1_1stats__computer1.html#af57e942d49f4fd70f059f224b4ac07e1":[7,0,10,0,2],
-"d7/d7f/section.html":[3],
-"d7/d83/trie__tree_8cpp.html":[8,0,2,13],
-"d7/d83/trie__tree_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[8,0,2,13,2],
-"d7/d83/trie__tree_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,2,13,1],
-"d7/d89/double__factorial_8cpp.html":[8,0,10,6],
-"d7/d89/double__factorial_8cpp.html#a0a3c417360400093891a9ccddaa4be26":[8,0,10,6,0]
+"d7/d7c/classstatistics_1_1stats__computer1.html#ab5b4bfecdf391cae7edb1fe98548b846":[7,0,10,0,4]
 };
