@@ -6,5 +6,5 @@ var group___runge =
     [ "change", "dc/d9a/group___runge.html#ga25508693d14e74395bcd94af190e062c", null ],
     [ "main", "dc/d9a/group___runge.html#gae66f6b31b5ad750f1fe042a706a4e3d4", null ],
     [ "rungeKutta", "dc/d9a/group___runge.html#ga8b238477b5fef12cb566e311946d63e6", null ],
-    [ "test1", "dc/d9a/group___runge.html#ga1440a7779ac56f47a3f355ce4a8c7da0", null ]
+    [ "test1", "dc/d9a/group___runge.html#gae7880ce913f3058a35ff106d5be9e243", null ]
 ];
