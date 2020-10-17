@@ -1,5 +1,12 @@
 var NAVTREEINDEX5 =
 {
+"dc/dfe/ternary__search_8cpp.html#a23ad617bfce1e7cf4591059c85c1a027":[8,0,15,9,0],
+"dc/dfe/ternary__search_8cpp.html#a392fb874e547e582e9c66a08a1f23326":[8,0,15,9,2],
+"dc/dfe/ternary__search_8cpp.html#a7f7d866eccdabe51bb16818a792618b1":[8,0,15,9,3],
+"dc/dfe/ternary__search_8cpp.html#a93d0099db95022f1eb90ddfd68f73ead":[8,0,15,9,6],
+"dc/dfe/ternary__search_8cpp.html#ae01eda5098801bb6b5b778828fb4fddc":[8,0,15,9,1],
+"dc/dfe/ternary__search_8cpp.html#ae30dfe2894191bfeffe5b3b1854b95b0":[8,0,15,9,4],
+"dc/dfe/ternary__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,15,9,5],
 "dc/dfe/ternary__search_8cpp.html#aef655a27eb82efa299bf9d0becf6e9c8":[8,0,15,9,7],
 "dd/d0c/hamiltons__cycle_8cpp.html":[8,0,5,4],
 "dd/d0c/hamiltons__cycle_8cpp.html#a0cc94918b6831f308d4fe4fa27f08299":[8,0,5,4,4],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "functions_k.html":[7,3,0,10],
 "functions_l.html":[7,3,0,11],
 "functions_m.html":[7,3,0,12],
-"functions_n.html":[7,3,0,13],
-"functions_o.html":[7,3,0,14],
-"functions_p.html":[7,3,0,15],
-"functions_q.html":[7,3,0,16],
-"functions_r.html":[7,3,0,17],
-"functions_rela.html":[7,3,4],
-"functions_s.html":[7,3,0,18],
-"functions_t.html":[7,3,0,19]
+"functions_n.html":[7,3,0,13]
 };
