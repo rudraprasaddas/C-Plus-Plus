@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ordinary_20differential_20equations_4593',['Ordinary Differential Equations',['../d6/d60/group__ode.html',1,'']]],
-  ['open_20addressing_4594',['Open Addressing',['../d4/d39/group__open__addressing.html',1,'']]]
+  ['sorting_20algorithm_4593',['Sorting Algorithm',['../d5/d4c/group__sorting.html',1,'']]]
 ];

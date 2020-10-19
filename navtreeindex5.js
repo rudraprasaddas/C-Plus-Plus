@@ -1,10 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"dc/dfe/ternary__search_8cpp.html#a23ad617bfce1e7cf4591059c85c1a027":[8,0,15,9,0],
-"dc/dfe/ternary__search_8cpp.html#a392fb874e547e582e9c66a08a1f23326":[8,0,15,9,2],
-"dc/dfe/ternary__search_8cpp.html#a7f7d866eccdabe51bb16818a792618b1":[8,0,15,9,3],
-"dc/dfe/ternary__search_8cpp.html#a93d0099db95022f1eb90ddfd68f73ead":[8,0,15,9,6],
-"dc/dfe/ternary__search_8cpp.html#ae01eda5098801bb6b5b778828fb4fddc":[8,0,15,9,1],
 "dc/dfe/ternary__search_8cpp.html#ae30dfe2894191bfeffe5b3b1854b95b0":[8,0,15,9,4],
 "dc/dfe/ternary__search_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,15,9,5],
 "dc/dfe/ternary__search_8cpp.html#aef655a27eb82efa299bf9d0becf6e9c8":[8,0,15,9,7],
@@ -69,8 +64,8 @@ var NAVTREEINDEX5 =
 "dd/d65/lu__decompose_8cpp.html#a1440a7779ac56f47a3f355ce4a8c7da0":[8,0,11,6,2],
 "dd/d65/lu__decompose_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[8,0,11,6,0],
 "dd/d65/lu__decompose_8cpp.html#a9459fcd1f020373d73eae2bad43786d0":[8,0,11,6,1],
-"dd/d69/namespacerange__queries.html":[7,0,9],
 "dd/d69/namespacerange__queries.html":[6,0,29],
+"dd/d69/namespacerange__queries.html":[7,0,9],
 "dd/d81/namespacecaesar.html":[6,0,2],
 "dd/d91/class_fenwick_tree.html":[7,0,18],
 "dd/d91/class_fenwick_tree.html#a115ff5c548b429b737ea09f75817d1f9":[7,0,18,4],
@@ -191,8 +186,8 @@ var NAVTREEINDEX5 =
 "df/dc8/successive__approximation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,11,16,2],
 "df/dc8/successive__approximation_8cpp.html#ae89c36add7c55298c5195d0a83de1456":[8,0,11,16,1],
 "df/dcb/namespacestrings.html":[6,0,39],
-"df/dce/namespacegraph.html":[7,0,4],
 "df/dce/namespacegraph.html":[6,0,9],
+"df/dce/namespacegraph.html":[7,0,4],
 "df/dd0/queue__using__two__stacks_8cpp.html":[8,0,2,9],
 "df/dd0/queue__using__two__stacks_8cpp.html#a831ded10ecad88c14a8e22b96f4c1863":[8,0,2,9,1],
 "df/dd0/queue__using__two__stacks_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,2,9,0],
@@ -234,8 +229,8 @@ var NAVTREEINDEX5 =
 "dir_f1797d0c2a0a12033e7d74efffeb14e1.html":[8,0,2,0],
 "examples.html":[9],
 "files.html":[8,0],
-"functions.html":[7,3,0],
 "functions.html":[7,3,0,0],
+"functions.html":[7,3,0],
 "functions_a.html":[7,3,0,1],
 "functions_b.html":[7,3,0,2],
 "functions_c.html":[7,3,0,3],
@@ -249,5 +244,10 @@ var NAVTREEINDEX5 =
 "functions_k.html":[7,3,0,10],
 "functions_l.html":[7,3,0,11],
 "functions_m.html":[7,3,0,12],
-"functions_n.html":[7,3,0,13]
+"functions_n.html":[7,3,0,13],
+"functions_o.html":[7,3,0,14],
+"functions_p.html":[7,3,0,15],
+"functions_q.html":[7,3,0,16],
+"functions_r.html":[7,3,0,17],
+"functions_rela.html":[7,3,4]
 };

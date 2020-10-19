@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kutta_204th_20method_20for_20solving_20differential_20equation_4591',['Kutta 4th Method for solving Differential equation',['../dc/d9a/group___runge.html',1,'']]]
+  ['machine_20learning_20algorithms_4590',['Machine Learning Algorithms',['../d9/d66/group__machine__learning.html',1,'']]]
 ];
