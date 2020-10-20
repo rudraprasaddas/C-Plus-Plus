@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md37":[2,15],
-"d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md38":[2,16],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md39":[2,17],
 "d5/d88/md__d_i_r_e_c_t_o_r_y.html#autotoc_md40":[2,18],
 "d5/d8a/classothers_1_1postfix__expression_1_1_stack.html":[7,0,7,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "d7/d7c/classstatistics_1_1stats__computer1.html#a27f0a03e2fd2254f1c81fe668226bd92":[7,0,10,0,3],
 "d7/d7c/classstatistics_1_1stats__computer1.html#a2a097b80909181880f13b54a264ed337":[7,0,10,0,5],
 "d7/d7c/classstatistics_1_1stats__computer1.html#a390697dcee210b91823ceff04b25081b":[7,0,10,0,0],
-"d7/d7c/classstatistics_1_1stats__computer1.html#a48c03a44c784eb6913ad186d34c302db":[7,0,10,0,7]
+"d7/d7c/classstatistics_1_1stats__computer1.html#a48c03a44c784eb6913ad186d34c302db":[7,0,10,0,7],
+"d7/d7c/classstatistics_1_1stats__computer1.html#a8ab2b14d5650b14e46b70b412573f60a":[7,0,10,0,6],
+"d7/d7c/classstatistics_1_1stats__computer1.html#aa13bf7c38de112f71921a5525d71a2f2":[7,0,10,0,1]
 };
