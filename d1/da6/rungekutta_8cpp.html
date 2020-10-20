@@ -122,7 +122,7 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8b238477b5fef12cb566e311946d63e6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da6/rungekutta_8cpp.html#a8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a> (double init_x, double init_y, double x, double <a class="el" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>)</td></tr>
-<tr class="memdesc:a8b238477b5fef12cb566e311946d63e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The rungeKutta finds value of y for a given x using step size h and initial value initial x at initial y.  <a href="../../d1/da6/rungekutta_8cpp.html#a8b238477b5fef12cb566e311946d63e6">More...</a><br /></td></tr>
+<tr class="memdesc:a8b238477b5fef12cb566e311946d63e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">the Runge Kutta method finds the value of integration of a function in the given limits. the lower limit of integration as the initial value and the upper limit is the given x  <a href="../../d1/da6/rungekutta_8cpp.html#a8b238477b5fef12cb566e311946d63e6">More...</a><br /></td></tr>
 <tr class="separator:a8b238477b5fef12cb566e311946d63e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a450497475f5607333f9aca8f88901579"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a> (double x, double y)</td></tr>
@@ -216,13 +216,13 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>test3</b> ()</
 
 <p>Main function. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
-<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{ </div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The Runge Kutta function will be tested on the basis of precomputed values\n&quot;</span>;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="../../d1/da6/rungekutta_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a>();</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../d7/db9/hill__cipher_8cpp.html#a04391124480d2a49f2dec900237b0712">test2</a>();</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <a class="code" href="../../d5/db0/adaline__learning_8cpp.html#a992bdf1fdb0b9d414bcf7981d2d87aa9">test3</a>(); <span class="comment">// Execute the tests</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">return</span> 0; </div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;} </div>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;{ </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The Runge Kutta function will be tested on the basis of precomputed values\n&quot;</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../d1/da6/rungekutta_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a>();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="../../d7/db9/hill__cipher_8cpp.html#a04391124480d2a49f2dec900237b0712">test2</a>();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../d5/db0/adaline__learning_8cpp.html#a992bdf1fdb0b9d414bcf7981d2d87aa9">test3</a>(); <span class="comment">// Execute the tests</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> 0; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;} </div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -270,7 +270,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>The rungeKutta finds value of y for a given x using step size h and initial value initial x at initial y. </p>
+<p>the Runge Kutta method finds the value of integration of a function in the given limits. the lower limit of integration as the initial value and the upper limit is the given x </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">init_x</td><td>is the value of initial x and is updated after each call </td></tr>
@@ -283,47 +283,47 @@ Here is the call graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>the value of y at thr required value of x from the initial conditions </dd></dl>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="../../dc/dc4/_2_users_2runner_2work_2_c-_plus-_plus_2_c-_plus-_plus_2numerical_methods_2rungekutta_8cpp-example.html#a1">/Users/runner/work/C-Plus-Plus/C-Plus-Plus/numerical_methods/rungekutta.cpp</a>.</dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{ </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;     </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="comment">// Count number of iterations </span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      <span class="comment">//using step size or </span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="comment">// step height h </span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;     </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="comment">// n calucates the number of iterations</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <span class="comment">// k1,k2,k3,k4 are the Runge Kutta variables </span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <span class="comment">// used for calculation of y at each iteration</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;     <span class="keywordtype">int</span> n = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>((x - init_x) / <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="comment">// used a vector container for the variables</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;     <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;double&gt;</a> k(4,0.0);</div>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{ </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;     </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="comment">// Count number of iterations </span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="comment">//using step size or </span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      <span class="comment">// step height h </span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;     </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="comment">// n calucates the number of iterations</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="comment">// k1,k2,k3,k4 are the Runge Kutta variables </span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <span class="comment">// used for calculation of y at each iteration</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;     <span class="keywordtype">int</span> n = <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>((x - init_x) / <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <span class="comment">// used a vector container for the variables</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;     <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;double&gt;</a> k(4,0.0);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <span class="comment">// Iterate for number of iterations </span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;     </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">double</span> y = init_y; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; i++) </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    { </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                        </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;         <span class="comment">// Apply Runge Kutta Formulas </span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;         <span class="comment">// to find next value of y </span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        k[0] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x, y); </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        k[1] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k[0]); </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        k[2] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k[1]); </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        k[3] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + k[2]); </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;         </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="comment">// Update next value of y </span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        y = y + (1.0/6.0)*(k[0] + 2*k[1] + 2*k[2] + k[3]);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">// Update next value of x </span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        init_x = init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    } </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">return</span> y; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;} </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="comment">// Iterate for number of iterations </span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;     </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">double</span> y = init_y; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; i++) </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    { </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                        </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;         <span class="comment">// Apply Runge Kutta Formulas </span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;         <span class="comment">// to find next value of y </span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        k[0] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x, y); </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        k[1] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k[0]); </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        k[2] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x + 0.5*<a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + 0.5*k[1]); </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        k[3] = <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>*<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>, y + k[2]); </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;         </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="comment">// Update next value of y </span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        y = y + (1.0/6.0)*(k[0] + 2*k[1] + 2*k[2] + k[3]);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="comment">// Update next value of x </span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        init_x = init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    } </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">return</span> y; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;} </div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -358,23 +358,23 @@ Here is the call graph for this function:</div>
 
 <p>the functions are for self test </p>
 <dl class="section return"><dt>Returns</dt><dd>void and prints the success of rungeKutta function </dd></dl>
-<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1....&quot;</span> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">double</span> valfirst=<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a>(2,3,4,0.2); <span class="comment">// Tests the function with pre calculated values</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        assert(valfirst==3.10364);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 1\n&quot;</span>;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1....&quot;</span> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordtype">double</span> valfirst=<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a>(2,3,4,0.2); <span class="comment">// Tests the function with pre calculated values</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        assert(valfirst==3.10364);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 1\n&quot;</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt; double &gt;</a></div></div>
-<div class="ttc" id="arungekutta_8cpp_html_ae7880ce913f3058a35ff106d5be9e243"><div class="ttname"><a href="../../d1/da6/rungekutta_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a></div><div class="ttdeci">static void test1()</div><div class="ttdoc">the functions are for self test</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:105</div></div>
+<div class="ttc" id="arungekutta_8cpp_html_ae7880ce913f3058a35ff106d5be9e243"><div class="ttname"><a href="../../d1/da6/rungekutta_8cpp.html#ae7880ce913f3058a35ff106d5be9e243">test1</a></div><div class="ttdeci">static void test1()</div><div class="ttdoc">the functions are for self test</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:104</div></div>
 <div class="ttc" id="ahill__cipher_8cpp_html_a04391124480d2a49f2dec900237b0712"><div class="ttname"><a href="../../d7/db9/hill__cipher_8cpp.html#a04391124480d2a49f2dec900237b0712">test2</a></div><div class="ttdeci">void test2(const std::string &amp;text)</div><div class="ttdoc">Self test 2 - using 8x8 randomly generated key.</div><div class="ttdef"><b>Definition:</b> hill_cipher.cpp:505</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="ahash__search_8cpp_html_a566eaf0ffafd50bc61e644561fd27001"><div class="ttname"><a href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a></div><div class="ttdeci">int h(int key)</div><div class="ttdef"><b>Definition:</b> hash_search.cpp:45</div></div>
-<div class="ttc" id="arungekutta_8cpp_html_a8b238477b5fef12cb566e311946d63e6"><div class="ttname"><a href="../../d1/da6/rungekutta_8cpp.html#a8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a></div><div class="ttdeci">double rungeKutta(double init_x, double init_y, double x, double h)</div><div class="ttdoc">The rungeKutta finds value of y for a given x using step size h and initial value initial x at initia...</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:56</div></div>
+<div class="ttc" id="arungekutta_8cpp_html_a8b238477b5fef12cb566e311946d63e6"><div class="ttname"><a href="../../d1/da6/rungekutta_8cpp.html#a8b238477b5fef12cb566e311946d63e6">numerical_methods::runge_kutta::rungeKutta</a></div><div class="ttdeci">double rungeKutta(double init_x, double init_y, double x, double h)</div><div class="ttdoc">the Runge Kutta method finds the value of integration of a function in the given limits....</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:55</div></div>
 <div class="ttc" id="arungekutta_8cpp_html_a450497475f5607333f9aca8f88901579"><div class="ttname"><a href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a></div><div class="ttdeci">static double change(double x, double y)</div><div class="ttdoc">The change() function is used to return the updated iterative value corresponding to the given functi...</div><div class="ttdef"><b>Definition:</b> rungekutta.cpp:34</div></div>
 <div class="ttc" id="aadaline__learning_8cpp_html_a992bdf1fdb0b9d414bcf7981d2d87aa9"><div class="ttname"><a href="../../d5/db0/adaline__learning_8cpp.html#a992bdf1fdb0b9d414bcf7981d2d87aa9">test3</a></div><div class="ttdeci">void test3(double eta=0.01)</div><div class="ttdef"><b>Definition:</b> adaline_learning.cpp:313</div></div>
 <!-- start footer part -->
