@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"><span class="comment"> * given x for given initial </span></div>
 <div class="line"><span class="comment"> * conditions</span></div>
 <div class="line"><span class="comment"> * There can be many such equations </span></div>
-<div class="line"><span class="comment"> * **/</span></div>
+<div class="line"><span class="comment"> */</span></div>
 <div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span> <span class="comment">/// for io operations</span></div>
 <div class="line"><span class="comment"></span><span class="preprocessor">#include &lt;vector&gt;</span>   <span class="comment">/// for using the vector container</span></div>
 <div class="line"><span class="comment"></span><span class="preprocessor">#include &lt;cassert&gt;</span>  <span class="comment">/// asserting the test functions</span></div>
@@ -129,7 +129,8 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">{ </div>
 <div class="line">    <span class="keywordtype">double</span> val=((x - y)/2.0); </div>
 <div class="line">    <span class="keywordflow">return</span> val;</div>
-<div class="line">} <span class="comment"></span></div>
+<div class="line">} </div>
+<div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">/**</span></div>
 <div class="line"><span class="comment"> * @namespace numerical_methods</span></div>
 <div class="line"><span class="comment"> * @brief Numerical Methods</span></div>
@@ -139,8 +140,7 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"><span class="comment"> * @namespace runge_kutta</span></div>
 <div class="line"><span class="comment"> * @brief Functions for [Runge Kutta fourth order](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods) method</span></div>
 <div class="line"><span class="comment"> */</span></div>
-<div class="line"><span class="keyword">namespace </span><a class="code" href="../../d2/de7/namespacerunge__kutta.html">runge_kutta</a> {</div>
-<div class="line"><span class="comment"></span> </div>
+<div class="line"><span class="keyword">namespace </span><a class="code" href="../../d2/de7/namespacerunge__kutta.html">runge_kutta</a> {<span class="comment"></span></div>
 <div class="line"><span class="comment">/**</span></div>
 <div class="line"><span class="comment"> * @brief the Runge Kutta method finds the value of integration of a function in the given limits.</span></div>
 <div class="line"><span class="comment"> * the lower limit of integration as the initial value and the upper limit is the given x</span></div>
@@ -192,9 +192,9 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> y; </div>
 <div class="line">} </div>
-<div class="line"> </div>
 <div class="line">} <span class="comment">// namespace runge_kutta</span></div>
-<div class="line">} <span class="comment">// namespace numerical_methods</span><span class="comment"></span></div>
+<div class="line">} <span class="comment">// namespace numerical_methods</span></div>
+<div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">/**</span></div>
 <div class="line"><span class="comment"> * @brief the functions are for self test</span></div>
 <div class="line"><span class="comment"> * @returns void and prints the success of rungeKutta function</span></div>
