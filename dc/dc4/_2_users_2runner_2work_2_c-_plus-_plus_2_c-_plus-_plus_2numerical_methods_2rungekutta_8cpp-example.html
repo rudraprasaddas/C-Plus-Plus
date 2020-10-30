@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="title">/Users/runner/work/C-Plus-Plus/C-Plus-Plus/numerical_methods/rungekutta.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<p>it solves dy/dx=(x-y)/2 at a given x for given initial conditions There can be many such equations</p>
+<p>it solves \frac{\mathrm{d} y}{\mathrm{d} x}= \frac{\left ( x-y \right )}{2} given x for given initial conditions There can be many such equations</p>
 <div class="fragment"><div class="line"><span class="comment">/**</span></div>
 <div class="line"><span class="comment"> * @{</span></div>
 <div class="line"><span class="comment"> * \file</span></div>
@@ -105,10 +105,10 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"><span class="comment"> * \details</span></div>
 <div class="line"><span class="comment"> * It solves the unknown value of y </span></div>
 <div class="line"><span class="comment"> * for a given value of x</span></div>
-<div class="line"><span class="comment"> * only first oreder differential equations</span></div>
+<div class="line"><span class="comment"> * only first order differential equations</span></div>
 <div class="line"><span class="comment"> * can be solved</span></div>
 <div class="line"><span class="comment"> * \example</span></div>
-<div class="line"><span class="comment"> * it solves dy/dx=(x-y)/2 at a </span></div>
+<div class="line"><span class="comment"> * it solves \frac{\mathrm{d} y}{\mathrm{d} x}= \frac{\left ( x-y \right )}{2}</span></div>
 <div class="line"><span class="comment"> * given x for given initial </span></div>
 <div class="line"><span class="comment"> * conditions</span></div>
 <div class="line"><span class="comment"> * There can be many such equations </span></div>
@@ -127,8 +127,8 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"><span class="comment"> */</span></div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">double</span> <a name="a0"></a><a class="code" href="../../d1/da6/rungekutta_8cpp.html#a450497475f5607333f9aca8f88901579">change</a>(<span class="keywordtype">double</span> x, <span class="keywordtype">double</span> y) </div>
 <div class="line">{ </div>
-<div class="line">    <span class="keywordtype">double</span> val=((x - y)/2.0); </div>
-<div class="line">    <span class="keywordflow">return</span> val;</div>
+<div class="line">    <span class="keywordflow">return</span> ((x - y)/2.0); </div>
+<div class="line">    </div>
 <div class="line">} </div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">/**</span></div>
@@ -154,12 +154,12 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">{ </div>
 <div class="line">     </div>
 <div class="line">      <span class="comment">// Count number of iterations </span></div>
-<div class="line">      <span class="comment">//using step size or </span></div>
+<div class="line">      <span class="comment">// using step size or </span></div>
 <div class="line">      <span class="comment">// step height h </span></div>
 <div class="line">      </div>
 <div class="line">     </div>
 <div class="line">      <span class="comment">// n calucates the number of iterations</span></div>
-<div class="line">      <span class="comment">// k1,k2,k3,k4 are the Runge Kutta variables </span></div>
+<div class="line">      <span class="comment">// k1, k2, k3, k4 are the Runge Kutta variables </span></div>
 <div class="line">      <span class="comment">// used for calculation of y at each iteration</span></div>
 <div class="line">      </div>
 <div class="line">     <span class="keyword">auto</span> n = <span class="keyword">static_cast&lt;</span>uint64_t<span class="keyword">&gt;</span>((x - init_x) / <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>); </div>
@@ -170,7 +170,7 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">      <span class="comment">// Iterate for number of iterations </span></div>
 <div class="line">     </div>
 <div class="line">    <span class="keywordtype">double</span> y = init_y; </div>
-<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; i++) </div>
+<div class="line">    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=1; i&lt;=n; ++i) </div>
 <div class="line">    { </div>
 <div class="line">                        </div>
 <div class="line">         <span class="comment">// Apply Runge Kutta Formulas </span></div>
@@ -183,11 +183,11 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">        </div>
 <div class="line">        <span class="comment">// Update next value of y </span></div>
 <div class="line">        </div>
-<div class="line">        y = y + (1.0/6.0)*(k[0] + 2*k[1] + 2*k[2] + k[3]);</div>
+<div class="line">        y += (1.0/6.0)*(k[0] + 2*k[1] + 2*k[2] + k[3]);</div>
 <div class="line">        </div>
 <div class="line">        <span class="comment">// Update next value of x </span></div>
 <div class="line">        </div>
-<div class="line">        init_x = init_x + <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>; </div>
+<div class="line">        init_x += <a class="code" href="../../d1/df3/hash__search_8cpp.html#a566eaf0ffafd50bc61e644561fd27001">h</a>; </div>
 <div class="line">    } </div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> y; </div>
@@ -196,12 +196,14 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line">} <span class="comment">// namespace numerical_methods</span></div>
 <div class="line"><span class="comment"></span> </div>
 <div class="line"><span class="comment">/**</span></div>
-<div class="line"><span class="comment"> * @brief the functions are for self test</span></div>
-<div class="line"><span class="comment"> * @returns void and prints the success of rungeKutta function</span></div>
+<div class="line"><span class="comment"> * @brief Tests to check algorithm implementation.</span></div>
+<div class="line"><span class="comment"> * @returns void </span></div>
 <div class="line"><span class="comment"> */</span></div>
 <div class="line">    <span class="keyword">static</span> <span class="keywordtype">void</span> <a name="a4"></a><a class="code" href="../../d6/d2c/caesar__cipher_8cpp.html#ae1a3968e7947464bee7714f6d43b7002">test</a>()</div>
 <div class="line">    {</div>
-<div class="line">        <a name="_a5"></a><a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1....&quot;</span> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line">        <a name="_a5"></a><a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The Runge Kutta function will be tested on the basis of precomputed values\n&quot;</span>;</div>
+<div class="line"> </div>
+<div class="line">        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1....&quot;</span> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line">        <span class="keywordtype">double</span> valfirst=<a class="code" href="../../d1/da6/rungekutta_8cpp.html#a7b9f40c7b5e9749cc550f19be3dc8856">numerical_methods::runge_kutta::rungeKutta</a>(2,3,4,0.2); <span class="comment">// Tests the function with pre calculated values</span></div>
 <div class="line">        assert(valfirst==3.10363932323749570);</div>
 <div class="line">        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Passed Test 1\n&quot;</span>;</div>
@@ -224,7 +226,7 @@ $(document).ready(function(){initNavTree('dc/dc4/_2_users_2runner_2work_2_c-_plu
 <div class="line"><span class="comment"> */</span></div>
 <div class="line"><span class="keywordtype">int</span> <a name="a6"></a><a class="code" href="../../d3/d40/graph__coloring_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>() </div>
 <div class="line">{ </div>
-<div class="line">    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;The Runge Kutta function will be tested on the basis of precomputed values\n&quot;</span>;</div>
+<div class="line">    </div>
 <div class="line">    <a class="code" href="../../d6/d2c/caesar__cipher_8cpp.html#ae1a3968e7947464bee7714f6d43b7002">test</a>();  <span class="comment">// Execute the tests</span></div>
 <div class="line">    <span class="keywordflow">return</span> 0; </div>
 <div class="line">} </div>
